@@ -1,0 +1,42 @@
+.upload-preview input[type=file]{
+    opacity: 0;
+    width:100% !important;
+    height:100% !important;
+}
+
+.upload-preview {
+    background-color: #f5f5f5; 
+    min-height: 250px !important;
+    width: 90% !important;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right: 25px;
+    height:175px;
+    width:175px;
+    border: 2px dashed #0087F7;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-table;
+
+}
+
+.upload-preview > .preview-item {
+    cursor: crosshair;
+    background-size: cover; 
+    background-position: center center;
+    display: -webkit-inline-box;
+    margin: 12px;
+}
+
+.upload-preview > #list-preview {
+    padding:10px;
+}
+
+.preview-item img {
+    height:150px;
+    width:150px;
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin: 5px;
+}
